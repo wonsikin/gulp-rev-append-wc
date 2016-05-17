@@ -1,11 +1,11 @@
 {
-  "name": "gulp-rev-append",
-  "version": "0.1.6",
+  "name": "gulp-rev-append-wc",
+  "version": "0.0.1",
   "description": "Cache-busting plugin for gulp.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bustardcelly/gulp-rev-append"
+    "url": "https://github.com/wonsikin/gulp-rev-append-wc"
   },
   "scripts": {
     "test": "node node_modules/.bin/cucumber-js"
@@ -16,13 +16,16 @@
     "gulp-rev-append",
     "cache-busting",
     "cache",
-    "revision"
+    "revision",
+    "app-router",
+    "polymer",
+    "webcomponents"
   ],
   "author": "Todd Anderson",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/bustardcelly/gulp-rev-append/LICENSE-MIT"
+      "url": "https://github.com/wonsikin/gulp-rev-append-wc/LICENSE-MIT"
     }
   ],
   "devDependencies": {

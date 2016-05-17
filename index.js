@@ -21,11 +21,11 @@ var revPlugin = function revPlugin() {
     var data, hash;
 
     if(!file) {
-      throw new PluginError('gulp-rev-append', 'Missing file option for gulp-rev-append.');
+      throw new PluginError('gulp-rev-append-wc', 'Missing file option for gulp-rev-append-wc.');
     }
 
     if(!file.contents) {
-      throw new PluginError('gulp-rev-append', 'Missing file.contents required for modifying files using gulp-rev-append.');
+      throw new PluginError('gulp-rev-append-wc', 'Missing file.contents required for modifying files using gulp-rev-append-wc.');
     }
 
     contents = file.contents.toString();
